@@ -10,7 +10,12 @@ const PeoplePage = props => {
       <h2>People Page</h2>
       {peeps.map((peep, index) => (
         <Link to={`/people/${index}`} key={index}>
-          <People peep={peep} key={index} idVal={index} test={"sillyString"} />
+          <People
+            peep={peep}
+            key={index}
+            idVal={index}
+            test={"loves the color "}
+          />
         </Link>
       ))}
     </div>
