@@ -2,3 +2,18 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.navbar-container {
+  border: 1px solid red;
+}
+
+.navbar {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+}
+
+.divLink {
+  border: 1px solid orchid;
+  margin: 15px;
+}
