@@ -16,7 +16,15 @@ const Home = () => <h4> Home</h4>;
 // const People = props => <h4>People {props.index}</h4>;
 const About = () => <h4> About</h4>;
 
-function App() {
+
+
+
+
+
+
+
+
+export default function App() {
   return (
     <div className="App">
       <nav className="navbar-container">
@@ -35,7 +43,7 @@ function App() {
       </nav>
 
       <Route exact path="/" component={Home} />
-      <Route exact path="/people/:id" component={People} />
+      <Route path="/people/:id" exact component={People} />
       <Route path="/about" component={About} />
       <Route path="/peoplepage" component={PeoplePage} />
     </div>
