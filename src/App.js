@@ -9,10 +9,11 @@ import {
 
 import PeoplePage from "./components/PeoplePage";
 import People from "./components/People";
+import Home from './components/Home';
 
 import "./styles.css";
 
-const Home = () => <h4> Home</h4>;
+// const Home = () => <h4> Home</h4>;
 // const People = props => <h4>People {props.index}</h4>;
 const About = () => <h4> About</h4>;
 

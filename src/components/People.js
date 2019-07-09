@@ -17,3 +17,5 @@ function People(props, match) {
     </h4>
   );
 }
+
+export default People;
