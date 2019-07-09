@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 const color = ["red", "yellow", "blue", "pink"];
@@ -18,3 +19,5 @@ function People(props, match) {
 }
 
 export default People;
+=======
+>>>>>>> 21776de41a2b08368c587d19a135ebd6d3c6fa71
