@@ -35,7 +35,14 @@ export default function App() {
         </div>
       </nav>
 
-      <Route exact path="/" component={Home} />
+      {/* <Route exact path="/" component={Home} /> */}
+
+      <Route path = '/' exact render = { (props) => {
+          return <Home {...props} />
+      } }   />
+      
+      
+      
       <Route path="/people/:id" exact component={People} />
       <Route path="/about" component={About} />
       <Route path="/peoplepage" component={PeoplePage} />
