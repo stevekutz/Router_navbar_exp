@@ -41,7 +41,9 @@ export default function App() {
           return <Home {...props} />
       } }   />
       
-      
+      <Route path = 'peoplepage' render = { (props)  => {
+          return <PeoplePage {...props}  />
+      }}  />
       
       <Route path="/people/:id" exact component={People} />
       <Route path="/about" component={About} />
@@ -49,3 +51,6 @@ export default function App() {
     </div>
   );
 }
+
+
+// <Route path="/peoplepage" component={PeoplePage} />

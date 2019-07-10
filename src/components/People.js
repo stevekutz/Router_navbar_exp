@@ -4,8 +4,7 @@ import React from "react";
 const color = ["red", "yellow", "blue", "pink"];
 
 function People(props, match) {
-  console.log("People props >> ", props);
-  console.log("People idVal >> ", props.idVal);
+
 
   // const paramVal = props.match.params.id;
   // console.log("paramVal is ", paramVal);
