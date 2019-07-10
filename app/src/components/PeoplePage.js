@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import People from "../components/People";
+import People from "./People";
 
 const peeps = ["Joe", "Ted", "Sally", "Jules"];
 
