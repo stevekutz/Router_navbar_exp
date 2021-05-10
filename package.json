@@ -15,7 +15,7 @@
     "helmet": "^3.18.0",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.18.4",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "sqlite3": "^4.0.9"
   }
